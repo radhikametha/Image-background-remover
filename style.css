@@ -1,0 +1,59 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #06c59c;
+  }
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    background-color: #becee8;
+    /* background-image: url(https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg); */
+    padding: 90px;
+    margin: 10px;
+    width: auto;
+    border-radius: 7px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+
+
+}
+
+img {
+    width: 300px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.hide-bg {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+
+@media (max-width: 870px) {
+
+    .flex {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    img {
+        width: 200px;
+    }
+    
+}
